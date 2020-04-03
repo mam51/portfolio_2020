@@ -2,29 +2,24 @@ body{
   background: rgba(254, 254, 224, 0.5);
   position: absolute;
 }
-section{
-  min-height: 98vh;
-  border-bottom: 1px solid red;
-}
+
 .project-feature-content{
+  object-fit: cover;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
+flex-basis: 500px;
 }
 
 .project-feature{
 margin: 1em;
 padding: 1em;
-flex-basis: 400px;
+flex-basis: 500px;
 flex-grow: 1;
 flex-shrink: 1;
-text-align: center;
-
 }
 
-.photo-feature-content{
 
-}
 #main-menu{
   width:300px;
   position: absolute;
@@ -85,6 +80,7 @@ margin-bottom: auto;
     position: static;
     width: 100%;
     background: transparent;
+
   }
 
 #main-menu ul {
@@ -100,11 +96,24 @@ margin-bottom: auto;
 
 
 h1{
-  margin-left: 3em;
+text-align: center;
 }
 
 h2{
   text-align: center;
   margin-bottom: 10em;
   margin-top: 10em;
+}
+
+#about{
+margin-top: 10em;
+text-align: center;
+width : 50%;
+}
+
+#contact{
+  text-align: center;
+  margin-top: 10em;
+  display: block;
+  margin-bottom: 10em;
 }
