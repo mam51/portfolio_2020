@@ -4,11 +4,9 @@ body{
 }
 
 .project-feature-content{
-  object-fit: cover;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
-flex-basis: 500px;
 }
 
 .project-feature{
@@ -59,7 +57,7 @@ flex-shrink: 1;
 }
 
 .toggle-menu{
-  padding: 1em;
+padding: 1em;
 margin: 10px;
 margin-bottom: auto;
 
@@ -116,4 +114,8 @@ width : 50%;
   margin-top: 10em;
   display: block;
   margin-bottom: 10em;
+}
+
+.project-feature img{
+width: 100%;
 }
